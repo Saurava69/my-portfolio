@@ -3,6 +3,9 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 export const metadata = {
   title: 'Home',
   description: 'Saurav Kumar - Associate Developer at SAP Labs India. Full Stack Developer specializing in Cloud Computing, Microservices, React, Node.js, Java, and Python. Building scalable cloud-native applications on SAP BTP.',
+  alternates: {
+    canonical: 'https://www.sauravx.com',
+  },
   openGraph: {
     title: 'Saurav Kumar - Software Engineer | Full Stack Developer',
     description: 'Associate Developer at SAP Labs India specializing in Full Stack Development, Cloud Computing, and Microservices',

@@ -107,9 +107,6 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    canonical: 'https://www.sauravx.com',
-  },
   verification: {
     google: 'your-google-verification-code',
   },
@@ -340,9 +337,6 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
-        
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://www.sauravx.com" />
         
         {/* Additional SEO Meta Tags */}
         <meta name="author" content="Saurav Kumar" />
