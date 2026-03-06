@@ -1,3 +1,5 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export const metadata = {
   title: 'Home',
   description: 'Saurav Kumar - Associate Developer at SAP Labs India. Full Stack Developer specializing in Cloud Computing, Microservices, React, Node.js, Java, and Python. Building scalable cloud-native applications on SAP BTP.',
@@ -41,7 +43,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="/Resume.pdf"
+                href={`${basePath}/Resume.pdf`}
                 download
                 className="bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition-colors flex items-center"
               >
@@ -160,7 +162,7 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="/Resume.pdf"
+              href={`${basePath}/Resume.pdf`}
               download
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center"
             >

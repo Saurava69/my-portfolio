@@ -1,6 +1,8 @@
 import Link from "next/link";
 import "./globals.css";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export const metadata = {
   metadataBase: new URL('https://www.sauravx.com'),
   title: {
@@ -393,7 +395,7 @@ export default function RootLayout({ children }) {
                   <li><Link href="/projects" className="hover:text-white transition-colors">Projects</Link></li>
                   <li><Link href="/skills" className="hover:text-white transition-colors">Skills</Link></li>
                   <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-                  <li><a href="/Resume.pdf" download className="hover:text-white transition-colors">Download Resume</a></li>
+                  <li><a href={`${basePath}/Resume.pdf`} download className="hover:text-white transition-colors">Download Resume</a></li>
                 </ul>
               </div>
               <div>

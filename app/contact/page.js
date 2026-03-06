@@ -1,3 +1,5 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export const metadata = {
   title: 'Contact',
   description: 'Get in touch with Saurav Kumar - Associate Developer at SAP Labs India. Contact via email at sauravx25@gmail.com, phone +916206846984, or connect on LinkedIn, GitHub, LeetCode, and Codeforces.',
@@ -205,7 +207,7 @@ export default function Contact() {
               Get a comprehensive overview of my skills, experience, and achievements in PDF format
             </p>
             <a
-              href="/Resume.pdf"
+              href={`${basePath}/Resume.pdf`}
               download
               className="inline-flex items-center bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors shadow-md hover:shadow-lg"
             >
@@ -265,7 +267,7 @@ export default function Contact() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="/Resume.pdf"
+              href={`${basePath}/Resume.pdf`}
               download
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center justify-center"
             >
