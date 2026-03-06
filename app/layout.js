@@ -411,7 +411,7 @@ export default function RootLayout({ children }) {
             </div>
             <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm">
               <p>&copy; {new Date().getFullYear()} Saurav Kumar. All rights reserved.</p>
-              <p className="mt-2 text-gray-500">Associate Developer at SAP Labs India | Full Stack Developer | NIT Warangal</p>
+              <p className="mt-2 text-gray-400">Associate Developer at SAP Labs India | Full Stack Developer | NIT Warangal</p>
             </div>
           </div>
         </footer>
