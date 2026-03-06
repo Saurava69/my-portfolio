@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'Projects',
   description: 'Saurav Kumar\'s personal projects including Saurity WordPress Security Plugin and ChatWave real-time chat platform. Full stack development showcasing security, scalability, and modern web technologies.',
+  alternates: {
+    canonical: 'https://www.sauravx.com/projects',
+  },
   openGraph: {
     title: 'Projects | Saurav Kumar',
     description: 'Personal projects showcasing full stack development, security systems, and real-time applications',

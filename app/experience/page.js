@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'Work Experience',
   description: 'Saurav Kumar\'s professional experience at SAP Labs India as Associate Developer and SDE Intern. Building cloud-native E2E test orchestration platforms, AI/ML solutions, and enterprise applications.',
+  alternates: {
+    canonical: 'https://www.sauravx.com/experience',
+  },
   openGraph: {
     title: 'Work Experience | Saurav Kumar',
     description: 'Professional experience at SAP Labs India building cloud-native applications and AI/ML solutions',

@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'Achievements',
   description: 'Saurav Kumar\'s academic and competitive achievements including 99.32 percentile in JEE Mains among 1 million+ students and NTSE District Topper qualification.',
+  alternates: {
+    canonical: 'https://www.sauravx.com/achievements',
+  },
   openGraph: {
     title: 'Achievements | Saurav Kumar',
     description: 'Academic excellence and competitive achievements demonstrating consistent performance',

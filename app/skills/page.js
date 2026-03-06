@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'Technical Skills',
   description: 'Saurav Kumar\'s technical skills and expertise in programming languages (Java, C++, JavaScript, Python), frameworks (Spring Boot, Node.js, SAP CAP), cloud platforms (AWS, Docker, Kubernetes), and databases (PostgreSQL, MySQL, Redis, Kafka).',
+  alternates: {
+    canonical: 'https://www.sauravx.com/skills',
+  },
   openGraph: {
     title: 'Technical Skills | Saurav Kumar',
     description: 'Technical expertise in Full Stack Development, Cloud Computing, Microservices, and Enterprise Systems',

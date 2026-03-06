@@ -3,6 +3,9 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 export const metadata = {
   title: 'Contact',
   description: 'Get in touch with Saurav Kumar - Associate Developer at SAP Labs India. Contact via email at sauravx25@gmail.com, phone +916206846984, or connect on LinkedIn, GitHub, LeetCode, and Codeforces.',
+  alternates: {
+    canonical: 'https://www.sauravx.com/contact',
+  },
   openGraph: {
     title: 'Contact | Saurav Kumar',
     description: 'Get in touch for collaboration, opportunities, or technical discussions',

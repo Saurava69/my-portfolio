@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'Education',
   description: 'Saurav Kumar\'s educational background - B.Tech in Electronics and Communication Engineering from National Institute of Technology, Warangal with 7.69 CGPA. Academic achievements and coursework.',
+  alternates: {
+    canonical: 'https://www.sauravx.com/education',
+  },
   openGraph: {
     title: 'Education | Saurav Kumar',
     description: 'Educational background from NIT Warangal and academic achievements',
