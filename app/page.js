@@ -36,10 +36,10 @@ export default function Home() {
               Saurav Kumar
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-6">
-              Associate Developer | Full Stack Engineer | Cloud & Microservices Specialist
+              Associate Developer | Full Stack Engineer | Cloud & Microservices
             </p>
             <p className="text-lg text-gray-400 max-w-3xl mx-auto mb-8">
-              Building scalable cloud-native applications at SAP Labs India. Expertise in Java, Spring Boot, Node.js, React, SAP CAP, and enterprise systems on SAP BTP and HANA Cloud platforms.
+              Building scalable cloud-native applications at SAP Labs India. Expertise in Java, Spring Boot, Node.js, React, SAP CAP, and enterprise systems on Cloud platforms.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
@@ -84,7 +84,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-white mb-8 text-center">Professional Summary</h2>
           <article className="prose prose-lg max-w-4xl mx-auto text-gray-300">
             <p>
-              Associate Developer at SAP Labs India with strong expertise in full stack development, cloud computing, and microservices architecture. Proven track record of building enterprise-grade applications that serve hundreds of concurrent users with high performance and reliability.
+              Associate Developer at SAP Labs India with strong expertise in full stack development, cloud computing, and microservices architecture.
             </p>
             <p>
               Specialized in architecting cloud-native solutions using Java, Spring Boot, Node.js, and React on SAP BTP. Experience in developing E2E test orchestration platforms, AI-powered automation frameworks, and real-time communication systems. Strong foundation in data structures, algorithms, and system design from National Institute of Technology, Warangal.
